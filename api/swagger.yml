@@ -1,0 +1,230 @@
+swagger: "2.0"
+info:
+  description: "The API for DublinBus web service"
+  version: "0.0.3"
+  title: "Dublin Bus DIY"
+  termsOfService: "http://swagger.io/terms/"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "dublinbus-diy.site"
+# The base path will be added by Nginx for reverse proxy.
+# It's not required in the api module.
+basePath: "/api"
+tags:
+  - name: "stop"
+    description: "The bus stops from GTFS static files"
+  - name: "route"
+    description: "Plan the journey"
+schemes:
+  - "https"
+  - "http"
+paths:
+  /stop/findByAddress:
+    get:
+      tags:
+        - "stop"
+      summary: "Finds Bus Stops by address"
+      description: "The address can be a key word. If it can not be found in the database, the stops near by
+      the address will be suggested"
+      operationId: "findByAddress"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "filter"
+          in: "query"
+          description: "Address key words that need to be considered for filter"
+          required: true
+          type: "string"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            # construct customized object
+            # https://swagger.io/docs/specification/describing-responses/
+            type: object
+            properties:
+              matched:
+                type: "array"
+                items:
+                  $ref: "#/definitions/BusStop"
+                description: The bus stops matched by the filter.
+              nearby:
+                type: "array"
+                items:
+                  $ref: "#/definitions/BusStop"
+                description: The bus stops nearby the address searched by the filter.
+  /route/matchingRoute/{origin}/{destination}/{timeType}/{time}:
+    get:
+      tags:
+        - "route"
+      summary: "Finds Routes by origin/destination bus stops and time"
+      description: "Finds Routes by origin/destination bus stops and departure/arrival time"
+      operationId: "matchingRoute"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "origin"
+          in: "path"
+          description: "The coordinates of the origin address, in the format of
+           latitude,longitude, i.e: 53.3081571,-6.2295381 # UCD Sport Center"
+          required: true
+          type: "string"
+          default: "53.3081571,-6.2295381"
+        - name: "destination"
+          in: "path"
+          description: "The coordinates of the destination address, in the format of
+           latitude,longitude, i.e: 53.33821020547234,-6.259107868580934 # St Stephen's Green"
+          required: true
+          type: "string"
+          default: "53.33821020547234,-6.259107868580934"
+        - name: "timeType"
+          in: "path"
+          description: "The type of time used to find the route"
+          required: true
+          type: "array"
+          items:
+            type: "string"
+            enum:
+              - "departure"
+              - "arrival"
+            default: "departure"
+        - name: "time"
+          in: "path"
+          description: "The time used to find the route"
+          required: true
+          type: "string"
+          format: "date-time"
+          default: "2022-08-10 13:00:00"
+      responses:
+        "200":
+          description: "successful operation"
+          schema:
+            type: "array"
+            items:
+              $ref: "#/definitions/Route"
+
+definitions:
+  BusStop:
+    type: "object"
+    properties:
+      stop_id:
+        type: "string"
+        description: "The unique ID value for a stop"
+      stop_number:
+        type: "string"
+        description: "The stop number."
+      stop_name:
+        type: "string"
+      stop_lat:
+        type: "number"
+        format: "double"
+      stop_lon:
+        type: "number"
+        format: "double"
+      stop_sequence:
+        type: "string"
+      arrival_time:
+        type: "string"
+        description: "Time of day for arrival to stop in format 'hh:mm'"
+      departure_time:
+        type: "string"
+        description: "Time of day for departure from stop in format 'hh:mm'"
+      shape_dist_traveled:
+        type: "number"
+        format: "double"
+        description: "Number of metres travelled by the bus up to that point on its journey"
+  Route:
+    type: "object"
+    properties:
+      route_num:
+        type: "string"
+      stops:
+        type: "array"
+        items:
+          $ref: "#/definitions/BusStop"
+      shapes:
+        type: "array"
+        items:
+          $ref: "#/definitions/Shape"
+      travel_time:
+        type: "object"
+        $ref: "#/definitions/TravelTime"
+        description: "The predicted travel time in minutes."
+      fares:
+        type: "object"
+        $ref: "#/definitions/Fares"
+  Shape:
+    type: "object"
+    properties:
+      shape_pt_lat:
+        type: "number"
+        format: "double"
+      shape_pt_lon:
+        type: "number"
+        format: "double"
+      shape_pt_sequence:
+        type: "string"
+      shape_dist_traveled:
+        type: "string"
+  ApiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      type:
+        type: "string"
+      message:
+        type: "string"
+  Fares:
+    type: "object"
+    properties:
+      adult_leap:
+        type: "number"
+        format: "double"
+      adult_cash:
+        type: "number"
+        format: "double"
+      student_leap:
+        type: "number"
+        format: "double"
+      child_leap:
+        type: "number"
+        format: "double"
+      child_cash:
+        type: "number"
+        format: "double"
+  TravelTime:
+    type: "object"
+    properties:
+      source:
+        type: "string"
+        enum:
+          - "static"
+          - "prediction"
+      transit_time:
+        type: "number"
+        format: "int32"
+      transit_time_plus_mae:
+        type: "number"
+        format: "int32"
+      transit_time_minus_mae:
+        type: "number"
+        format: "int32"
+      estimated_arrival_time:
+        type: "string"
+        description: "Estimated time of day to arrive at destination stop"
+      estimated_arrival_high_time:
+        type: "string"
+        description: "Estimated latest time of day to arrive at destination stop"
+      estimated_arrival_low_time:
+        type: "string"
+        description: "Estimated earliest time of day to arrive at destination stop"
+      scheduled_departure_time:
+        type: "string"
+        description: "Departure time from origin stop as per scheduled trips"
+
+externalDocs:
+  description: "Find out more about Swagger"
+  url: "http://swagger.io"
