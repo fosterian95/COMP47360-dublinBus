@@ -1,0 +1,1488 @@
+[
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/stop/findByAddress.*"
+    },
+    "httpResponse": {
+      "body": {
+        "matched": [
+          {
+            "stop_name": "Parnell Square West",
+            "stop_number": "10",
+            "stop_lat": 53.3533921036497,
+            "stop_lon": -6.26538912389949
+          },
+          {
+            "stop_name": "St Joseph's Parade",
+            "stop_number": "11",
+            "stop_lat": 53.3568152335319,
+            "stop_lon": -6.26467919507521
+          },
+          {
+            "stop_name": "Upper Dorset Street",
+            "stop_number": "12",
+            "stop_lat": 53.3571075162046,
+            "stop_lon": -6.26438186733525
+          },
+          {
+            "stop_name": "Dorset Street Lower",
+            "stop_number": "14",
+            "stop_lat": 53.3585312378782,
+            "stop_lon": -6.26277650570866
+          },
+          {
+            "stop_name": "Innisfallen Parade",
+            "stop_number": "15",
+            "stop_lat": 53.3602667075989,
+            "stop_lon": -6.26097804267247
+          }
+        ],
+        "nearby": [
+          {
+            "stop_name": "Ballymun Road",
+            "stop_number": "27",
+            "stop_lat": 53.3794389600131,
+            "stop_lon": -6.26658526125999
+          },
+          {
+            "stop_name": "Hampstead Avenue",
+            "stop_number": "28",
+            "stop_lat": 53.3815786376305,
+            "stop_lon": -6.26600227077734
+          },
+          {
+            "stop_name": "Albert College Park",
+            "stop_number": "29",
+            "stop_lat": 53.3834882529482,
+            "stop_lon": -6.26566910125412
+          },
+          {
+            "stop_name": "Ventry Park",
+            "stop_number": "30",
+            "stop_lat": 53.3703319001951,
+            "stop_lon": -6.30460116922909
+          }
+        ]
+      }
+    },
+    "id": "43103d87-f92e-4a6c-85c7-99e71057422d",
+    "priority": 0,
+    "timeToLive": {
+      "unlimited": true
+    },
+    "times": {
+      "unlimited": true
+    }
+  },
+  {
+    "httpRequest": {
+      "method": "GET",
+      "path": "/api/route/matchingRoute.*"
+    },
+    "httpResponse": {
+      "body": [
+        {
+          "route_num": "155",
+          "stops": [
+            {
+              "stop_id": "8250DB002084",
+              "stop_name": "Seafield Road",
+              "stop_number": "2084",
+              "stop_lat": 53.3055267568845,
+              "stop_lon": -6.2115990204445,
+              "stop_sequence": "38",
+              "arrival_time": "22:25:46",
+              "departure_time": "22:25:46",
+              "shape_dist_traveled": 14717.92
+            },
+            {
+              "stop_id": "8250DB000768",
+              "stop_name": "UCD Belfield",
+              "stop_number": "768",
+              "stop_lat": 53.3094181940068,
+              "stop_lon": -6.21877482979347,
+              "stop_sequence": "39",
+              "arrival_time": "22:26:54",
+              "departure_time": "22:26:54",
+              "shape_dist_traveled": 15366.68
+            },
+            {
+              "stop_id": "8220DB000769",
+              "stop_name": "Belfield Court",
+              "stop_number": "769",
+              "stop_lat": 53.3119010923178,
+              "stop_lon": -6.22132785711797,
+              "stop_sequence": "40",
+              "arrival_time": "22:27:19",
+              "departure_time": "22:27:19",
+              "shape_dist_traveled": 15694.24
+            },
+            {
+              "stop_id": "8220DB000770",
+              "stop_name": "RTE",
+              "stop_number": "770",
+              "stop_lat": 53.3146361875625,
+              "stop_lon": -6.22573181130967,
+              "stop_sequence": "41",
+              "arrival_time": "22:28:00",
+              "departure_time": "22:28:00",
+              "shape_dist_traveled": 16137.26
+            },
+            {
+              "stop_id": "8220DB000771",
+              "stop_name": "Teresian School",
+              "stop_number": "771",
+              "stop_lat": 53.315880069244,
+              "stop_lon": -6.22778152242798,
+              "stop_sequence": "42",
+              "arrival_time": "22:28:17",
+              "departure_time": "22:28:17",
+              "shape_dist_traveled": 16328.06
+            },
+            {
+              "stop_id": "8220DB000772",
+              "stop_name": "Donnybrook Garage",
+              "stop_number": "772",
+              "stop_lat": 53.3184852574564,
+              "stop_lon": -6.23132106360088,
+              "stop_sequence": "43",
+              "arrival_time": "22:28:51",
+              "departure_time": "22:28:51",
+              "shape_dist_traveled": 16701.62
+            },
+            {
+              "stop_id": "8220DB000773",
+              "stop_name": "Donnybrook Road",
+              "stop_number": "773",
+              "stop_lat": 53.3199163484799,
+              "stop_lon": -6.23327331931076,
+              "stop_sequence": "44",
+              "arrival_time": "22:29:23",
+              "departure_time": "22:29:23",
+              "shape_dist_traveled": 16904.94
+            },
+            {
+              "stop_id": "8220DB000774",
+              "stop_name": "Donnybrook Garda Stn",
+              "stop_number": "774",
+              "stop_lat": 53.3216121235643,
+              "stop_lon": -6.23549999641969,
+              "stop_sequence": "45",
+              "arrival_time": "22:30:01",
+              "departure_time": "22:30:01",
+              "shape_dist_traveled": 17146.83
+            },
+            {
+              "stop_id": "8220DB000775",
+              "stop_name": "Donnybrook Village",
+              "stop_number": "775",
+              "stop_lat": 53.3234897098062,
+              "stop_lon": -6.23908544721608,
+              "stop_sequence": "46",
+              "arrival_time": "22:30:51",
+              "departure_time": "22:30:51",
+              "shape_dist_traveled": 17470.67
+            },
+            {
+              "stop_id": "8220DB000776",
+              "stop_name": "Morehampton Terrace",
+              "stop_number": "776",
+              "stop_lat": 53.3254792402838,
+              "stop_lon": -6.2417358210607,
+              "stop_sequence": "47",
+              "arrival_time": "22:31:29",
+              "departure_time": "22:31:29",
+              "shape_dist_traveled": 17753.55
+            },
+            {
+              "stop_id": "8220DB000777",
+              "stop_name": "Royal Hospital",
+              "stop_number": "777",
+              "stop_lat": 53.3269721601116,
+              "stop_lon": -6.24362614364866,
+              "stop_sequence": "48",
+              "arrival_time": "22:31:57",
+              "departure_time": "22:31:57",
+              "shape_dist_traveled": 17961.88
+            },
+            {
+              "stop_id": "8220DB000906",
+              "stop_name": "Leeson St Upper",
+              "stop_number": "906",
+              "stop_lat": 53.3288107659747,
+              "stop_lon": -6.24763437727536,
+              "stop_sequence": "49",
+              "arrival_time": "22:32:43",
+              "departure_time": "22:32:43",
+              "shape_dist_traveled": 18302.6
+            },
+            {
+              "stop_id": "8220DB000907",
+              "stop_name": "Dartmouth Road",
+              "stop_number": "907",
+              "stop_lat": 53.3297193588591,
+              "stop_lon": -6.25075010860462,
+              "stop_sequence": "50",
+              "arrival_time": "22:33:18",
+              "departure_time": "22:33:18",
+              "shape_dist_traveled": 18535.89
+            },
+            {
+              "stop_id": "8220DB000908",
+              "stop_name": "Grand Parade",
+              "stop_number": "908",
+              "stop_lat": 53.3311542855373,
+              "stop_lon": -6.25237303421837,
+              "stop_sequence": "51",
+              "arrival_time": "22:33:47",
+              "departure_time": "22:33:47",
+              "shape_dist_traveled": 18729.77
+            },
+            {
+              "stop_id": "8220DB000909",
+              "stop_name": "Fitzwilliam Place",
+              "stop_number": "909",
+              "stop_lat": 53.3331476599204,
+              "stop_lon": -6.25407836385524,
+              "stop_sequence": "52",
+              "arrival_time": "22:34:25",
+              "departure_time": "22:34:25",
+              "shape_dist_traveled": 18983.2
+            },
+            {
+              "stop_id": "8220DB000786",
+              "stop_name": "Embassy of Malta",
+              "stop_number": "786",
+              "stop_lat": 53.3351644610142,
+              "stop_lon": -6.25615829567478,
+              "stop_sequence": "53",
+              "arrival_time": "22:35:05",
+              "departure_time": "22:35:05",
+              "shape_dist_traveled": 19245.76
+            },
+            {
+              "stop_id": "8220DB000792",
+              "stop_name": "Dawson Street",
+              "stop_number": "792",
+              "stop_lat": 53.3404489881529,
+              "stop_lon": -6.25858580845115,
+              "stop_sequence": "54",
+              "arrival_time": "22:37:20",
+              "departure_time": "22:37:20",
+              "shape_dist_traveled": 19852.14
+            },
+            {
+              "stop_id": "8220DB000319",
+              "stop_name": "Westmoreland Street",
+              "stop_number": "319",
+              "stop_lat": 53.3462744267355,
+              "stop_lon": -6.25927961394872,
+              "stop_sequence": "55",
+              "arrival_time": "22:40:59",
+              "departure_time": "22:40:59",
+              "shape_dist_traveled": 20581.27
+            },
+            {
+              "stop_id": "8220DB000281",
+              "stop_name": "O'Connell St Upper",
+              "stop_number": "281",
+              "stop_lat": 53.3513435349612,
+              "stop_lon": -6.26111600843156,
+              "stop_sequence": "56",
+              "arrival_time": "22:44:18",
+              "departure_time": "22:44:18",
+              "shape_dist_traveled": 21165.44
+            }
+          ],
+          "shapes": [
+            {
+              "shape_pt_lat": 53.305579078247,
+              "shape_pt_lon": -6.21149179307464,
+              "shape_pt_sequence": "194",
+              "shape_dist_travel": "14717.92"
+            },
+            {
+              "shape_pt_lat": 53.3066540979111,
+              "shape_pt_lon": -6.2130525142404,
+              "shape_pt_sequence": "195",
+              "shape_dist_travel": "14876.17"
+            },
+            {
+              "shape_pt_lat": 53.3072343803748,
+              "shape_pt_lon": -6.21398868492484,
+              "shape_pt_sequence": "196",
+              "shape_dist_travel": "14965.79"
+            },
+            {
+              "shape_pt_lat": 53.308157776995,
+              "shape_pt_lon": -6.21623115211525,
+              "shape_pt_sequence": "197",
+              "shape_dist_travel": "15146.74"
+            },
+            {
+              "shape_pt_lat": 53.3090773232299,
+              "shape_pt_lon": -6.2182187563777,
+              "shape_pt_sequence": "198",
+              "shape_dist_travel": "15313.75"
+            },
+            {
+              "shape_pt_lat": 53.3094181940068,
+              "shape_pt_lon": -6.21877482979347,
+              "shape_pt_sequence": "199",
+              "shape_dist_travel": "15366.68"
+            },
+            {
+              "shape_pt_lat": 53.3100341391124,
+              "shape_pt_lon": -6.219694645506,
+              "shape_pt_sequence": "200",
+              "shape_dist_travel": "15458.47"
+            },
+            {
+              "shape_pt_lat": 53.310354128102,
+              "shape_pt_lon": -6.22005651489896,
+              "shape_pt_sequence": "201",
+              "shape_dist_travel": "15501.41"
+            },
+            {
+              "shape_pt_lat": 53.3105357954231,
+              "shape_pt_lon": -6.22018402369274,
+              "shape_pt_sequence": "202",
+              "shape_dist_travel": "15523.32"
+            },
+            {
+              "shape_pt_lat": 53.3108066175887,
+              "shape_pt_lon": -6.22026280176225,
+              "shape_pt_sequence": "203",
+              "shape_dist_travel": "15553.88"
+            },
+            {
+              "shape_pt_lat": 53.3111072969566,
+              "shape_pt_lon": -6.22053543876797,
+              "shape_pt_sequence": "204",
+              "shape_dist_travel": "15591.91"
+            },
+            {
+              "shape_pt_lat": 53.3119523038221,
+              "shape_pt_lon": -6.22114563182826,
+              "shape_pt_sequence": "205",
+              "shape_dist_travel": "15694.24"
+            },
+            {
+              "shape_pt_lat": 53.3128979057707,
+              "shape_pt_lon": -6.22187173328964,
+              "shape_pt_sequence": "206",
+              "shape_dist_travel": "15809.92"
+            },
+            {
+              "shape_pt_lat": 53.3131626509758,
+              "shape_pt_lon": -6.22214588804747,
+              "shape_pt_sequence": "207",
+              "shape_dist_travel": "15844.54"
+            },
+            {
+              "shape_pt_lat": 53.3135019392504,
+              "shape_pt_lon": -6.22259705080856,
+              "shape_pt_sequence": "208",
+              "shape_dist_travel": "15892.72"
+            },
+            {
+              "shape_pt_lat": 53.3139081266578,
+              "shape_pt_lon": -6.22331559763751,
+              "shape_pt_sequence": "209",
+              "shape_dist_travel": "15958.44"
+            },
+            {
+              "shape_pt_lat": 53.3140385756485,
+              "shape_pt_lon": -6.22362536238441,
+              "shape_pt_sequence": "210",
+              "shape_dist_travel": "15983.61"
+            },
+            {
+              "shape_pt_lat": 53.314751176986,
+              "shape_pt_lon": -6.22560696970373,
+              "shape_pt_sequence": "211",
+              "shape_dist_travel": "16137.26"
+            },
+            {
+              "shape_pt_lat": 53.3151966230315,
+              "shape_pt_lon": -6.22654907434469,
+              "shape_pt_sequence": "212",
+              "shape_dist_travel": "16217.07"
+            },
+            {
+              "shape_pt_lat": 53.3159586843215,
+              "shape_pt_lon": -6.2276281711691,
+              "shape_pt_sequence": "213",
+              "shape_dist_travel": "16328.06"
+            },
+            {
+              "shape_pt_lat": 53.3174630317652,
+              "shape_pt_lon": -6.22966721796631,
+              "shape_pt_sequence": "214",
+              "shape_dist_travel": "16543.30"
+            },
+            {
+              "shape_pt_lat": 53.3185465790563,
+              "shape_pt_lon": -6.2312134555864,
+              "shape_pt_sequence": "215",
+              "shape_dist_travel": "16701.62"
+            },
+            {
+              "shape_pt_lat": 53.3190699352492,
+              "shape_pt_lon": -6.23195734387719,
+              "shape_pt_sequence": "216",
+              "shape_dist_travel": "16777.97"
+            },
+            {
+              "shape_pt_lat": 53.3191790616643,
+              "shape_pt_lon": -6.23204289539884,
+              "shape_pt_sequence": "217",
+              "shape_dist_travel": "16791.36"
+            },
+            {
+              "shape_pt_lat": 53.3196195681324,
+              "shape_pt_lon": -6.23265513227745,
+              "shape_pt_sequence": "218",
+              "shape_dist_travel": "16855.03"
+            },
+            {
+              "shape_pt_lat": 53.3199855433861,
+              "shape_pt_lon": -6.23309033126172,
+              "shape_pt_sequence": "219",
+              "shape_dist_travel": "16904.94"
+            },
+            {
+              "shape_pt_lat": 53.3216559273773,
+              "shape_pt_lon": -6.23542313210856,
+              "shape_pt_sequence": "220",
+              "shape_dist_travel": "17146.83"
+            },
+            {
+              "shape_pt_lat": 53.3219967197128,
+              "shape_pt_lon": -6.23597950574442,
+              "shape_pt_sequence": "221",
+              "shape_dist_travel": "17199.76"
+            },
+            {
+              "shape_pt_lat": 53.3220719091955,
+              "shape_pt_lon": -6.23620157668348,
+              "shape_pt_sequence": "222",
+              "shape_dist_travel": "17216.71"
+            },
+            {
+              "shape_pt_lat": 53.3221331252564,
+              "shape_pt_lon": -6.23669443227024,
+              "shape_pt_sequence": "223",
+              "shape_dist_travel": "17250.15"
+            },
+            {
+              "shape_pt_lat": 53.3222195135823,
+              "shape_pt_lon": -6.23706615902805,
+              "shape_pt_sequence": "224",
+              "shape_dist_travel": "17276.64"
+            },
+            {
+              "shape_pt_lat": 53.3223863017417,
+              "shape_pt_lon": -6.23740455004916,
+              "shape_pt_sequence": "225",
+              "shape_dist_travel": "17305.78"
+            },
+            {
+              "shape_pt_lat": 53.3228276677481,
+              "shape_pt_lon": -6.23807689851894,
+              "shape_pt_sequence": "226",
+              "shape_dist_travel": "17372.13"
+            },
+            {
+              "shape_pt_lat": 53.3235243117095,
+              "shape_pt_lon": -6.23899395015363,
+              "shape_pt_sequence": "227",
+              "shape_dist_travel": "17470.67"
+            },
+            {
+              "shape_pt_lat": 53.3240736829563,
+              "shape_pt_lon": -6.23967689823169,
+              "shape_pt_sequence": "228",
+              "shape_dist_travel": "17546.76"
+            },
+            {
+              "shape_pt_lat": 53.3255226057438,
+              "shape_pt_lon": -6.24162894877252,
+              "shape_pt_sequence": "229",
+              "shape_dist_travel": "17753.55"
+            },
+            {
+              "shape_pt_lat": 53.3269894627887,
+              "shape_pt_lon": -6.24358039317502,
+              "shape_pt_sequence": "230",
+              "shape_dist_travel": "17961.88"
+            },
+            {
+              "shape_pt_lat": 53.3274292487914,
+              "shape_pt_lon": -6.24414784736028,
+              "shape_pt_sequence": "231",
+              "shape_dist_travel": "18023.62"
+            },
+            {
+              "shape_pt_lat": 53.327457742965,
+              "shape_pt_lon": -6.24425177082019,
+              "shape_pt_sequence": "232",
+              "shape_dist_travel": "18031.21"
+            },
+            {
+              "shape_pt_lat": 53.3276413725821,
+              "shape_pt_lon": -6.24451447177047,
+              "shape_pt_sequence": "233",
+              "shape_dist_travel": "18058.07"
+            },
+            {
+              "shape_pt_lat": 53.3279679103431,
+              "shape_pt_lon": -6.24532680961925,
+              "shape_pt_sequence": "234",
+              "shape_dist_travel": "18123.10"
+            },
+            {
+              "shape_pt_lat": 53.3280875550497,
+              "shape_pt_lon": -6.24551707593283,
+              "shape_pt_sequence": "235",
+              "shape_dist_travel": "18141.44"
+            },
+            {
+              "shape_pt_lat": 53.3285186309328,
+              "shape_pt_lon": -6.24671549914969,
+              "shape_pt_sequence": "236",
+              "shape_dist_travel": "18234.35"
+            },
+            {
+              "shape_pt_lat": 53.328907812712,
+              "shape_pt_lon": -6.24751028825088,
+              "shape_pt_sequence": "237",
+              "shape_dist_travel": "18302.60"
+            },
+            {
+              "shape_pt_lat": 53.3293164971423,
+              "shape_pt_lon": -6.24840939073252,
+              "shape_pt_sequence": "238",
+              "shape_dist_travel": "18377.64"
+            },
+            {
+              "shape_pt_lat": 53.3294971281334,
+              "shape_pt_lon": -6.24969320159057,
+              "shape_pt_sequence": "239",
+              "shape_dist_travel": "18465.23"
+            },
+            {
+              "shape_pt_lat": 53.3296685033911,
+              "shape_pt_lon": -6.25034680754047,
+              "shape_pt_sequence": "240",
+              "shape_dist_travel": "18512.63"
+            },
+            {
+              "shape_pt_lat": 53.3297806978732,
+              "shape_pt_lon": -6.25064249941691,
+              "shape_pt_sequence": "241",
+              "shape_dist_travel": "18535.89"
+            },
+            {
+              "shape_pt_lat": 53.3301141976439,
+              "shape_pt_lon": -6.25131951014087,
+              "shape_pt_sequence": "242",
+              "shape_dist_travel": "18594.17"
+            },
+            {
+              "shape_pt_lat": 53.330206444787,
+              "shape_pt_lon": -6.25148089439852,
+              "shape_pt_sequence": "243",
+              "shape_dist_travel": "18609.01"
+            },
+            {
+              "shape_pt_lat": 53.330371213595,
+              "shape_pt_lon": -6.2516843565111,
+              "shape_pt_sequence": "244",
+              "shape_dist_travel": "18631.77"
+            },
+            {
+              "shape_pt_lat": 53.3306172667318,
+              "shape_pt_lon": -6.25191452517882,
+              "shape_pt_sequence": "245",
+              "shape_dist_travel": "18663.11"
+            },
+            {
+              "shape_pt_lat": 53.3311880181367,
+              "shape_pt_lon": -6.25222150837994,
+              "shape_pt_sequence": "246",
+              "shape_dist_travel": "18729.77"
+            },
+            {
+              "shape_pt_lat": 53.3314231089767,
+              "shape_pt_lon": -6.25231699972668,
+              "shape_pt_sequence": "247",
+              "shape_dist_travel": "18756.67"
+            },
+            {
+              "shape_pt_lat": 53.3321684881593,
+              "shape_pt_lon": -6.25288712577716,
+              "shape_pt_sequence": "248",
+              "shape_dist_travel": "18847.79"
+            },
+            {
+              "shape_pt_lat": 53.3332000191016,
+              "shape_pt_lon": -6.25397111756115,
+              "shape_pt_sequence": "249",
+              "shape_dist_travel": "18983.20"
+            },
+            {
+              "shape_pt_lat": 53.335173224419,
+              "shape_pt_lon": -6.25614292206184,
+              "shape_pt_sequence": "250",
+              "shape_dist_travel": "19245.76"
+            },
+            {
+              "shape_pt_lat": 53.3404472354409,
+              "shape_pt_lon": -6.25846573653914,
+              "shape_pt_sequence": "251",
+              "shape_dist_travel": "19852.14"
+            },
+            {
+              "shape_pt_lat": 53.3429266989585,
+              "shape_pt_lon": -6.25776393051747,
+              "shape_pt_sequence": "252",
+              "shape_dist_travel": "20131.76"
+            },
+            {
+              "shape_pt_lat": 53.3432060430792,
+              "shape_pt_lon": -6.25904416484425,
+              "shape_pt_sequence": "253",
+              "shape_dist_travel": "20222.24"
+            },
+            {
+              "shape_pt_lat": 53.3432616919503,
+              "shape_pt_lon": -6.25916204871902,
+              "shape_pt_sequence": "254",
+              "shape_dist_travel": "20232.22"
+            },
+            {
+              "shape_pt_lat": 53.3433981857288,
+              "shape_pt_lon": -6.25927663936881,
+              "shape_pt_sequence": "255",
+              "shape_dist_travel": "20249.20"
+            },
+            {
+              "shape_pt_lat": 53.3435239446494,
+              "shape_pt_lon": -6.25927151606355,
+              "shape_pt_sequence": "256",
+              "shape_dist_travel": "20263.18"
+            },
+            {
+              "shape_pt_lat": 53.3437206897675,
+              "shape_pt_lon": -6.2592034245016,
+              "shape_pt_sequence": "257",
+              "shape_dist_travel": "20285.52"
+            },
+            {
+              "shape_pt_lat": 53.3439903921541,
+              "shape_pt_lon": -6.25920745559093,
+              "shape_pt_sequence": "258",
+              "shape_dist_travel": "20315.51"
+            },
+            {
+              "shape_pt_lat": 53.3440806579666,
+              "shape_pt_lon": -6.25923381640691,
+              "shape_pt_sequence": "259",
+              "shape_dist_travel": "20325.70"
+            },
+            {
+              "shape_pt_lat": 53.3444625335271,
+              "shape_pt_lon": -6.25953366411395,
+              "shape_pt_sequence": "260",
+              "shape_dist_travel": "20372.60"
+            },
+            {
+              "shape_pt_lat": 53.3449504542832,
+              "shape_pt_lon": -6.25909324264792,
+              "shape_pt_sequence": "261",
+              "shape_dist_travel": "20434.23"
+            },
+            {
+              "shape_pt_lat": 53.3452107357743,
+              "shape_pt_lon": -6.25906761766114,
+              "shape_pt_sequence": "262",
+              "shape_dist_travel": "20463.22"
+            },
+            {
+              "shape_pt_lat": 53.3462720175053,
+              "shape_pt_lon": -6.25911449250871,
+              "shape_pt_sequence": "263",
+              "shape_dist_travel": "20581.27"
+            },
+            {
+              "shape_pt_lat": 53.3467303580456,
+              "shape_pt_lon": -6.25911083636405,
+              "shape_pt_sequence": "264",
+              "shape_dist_travel": "20632.24"
+            },
+            {
+              "shape_pt_lat": 53.3468824080954,
+              "shape_pt_lon": -6.25905958009636,
+              "shape_pt_sequence": "265",
+              "shape_dist_travel": "20649.48"
+            },
+            {
+              "shape_pt_lat": 53.3470359913979,
+              "shape_pt_lon": -6.25911340259805,
+              "shape_pt_sequence": "266",
+              "shape_dist_travel": "20666.93"
+            },
+            {
+              "shape_pt_lat": 53.3474522653104,
+              "shape_pt_lon": -6.2593067252804,
+              "shape_pt_sequence": "267",
+              "shape_dist_travel": "20714.96"
+            },
+            {
+              "shape_pt_lat": 53.3475160207578,
+              "shape_pt_lon": -6.25936420920886,
+              "shape_pt_sequence": "268",
+              "shape_dist_travel": "20723.02"
+            },
+            {
+              "shape_pt_lat": 53.3483658761394,
+              "shape_pt_lon": -6.25970510012678,
+              "shape_pt_sequence": "269",
+              "shape_dist_travel": "20820.19"
+            },
+            {
+              "shape_pt_lat": 53.3513691704939,
+              "shape_pt_lon": -6.26102483435435,
+              "shape_pt_sequence": "270",
+              "shape_dist_travel": "21165.44"
+            }
+          ],
+          "fares": {
+            "adult_leap": 2,
+            "adult_cash": 2.6,
+            "student_leap": 1,
+            "child_leap": 0.65,
+            "child_cash": 0.9
+          },
+          "travel_time": {
+            "source": "static",
+            "transit_time": 19,
+            "transit_time_plus_mae": 19,
+            "transit_time_minus_mae": 19,
+            "estimated_arrival_time": "22:44",
+            "estimated_arrival_high_time": "22:44",
+            "estimated_arrival_low_time": "22:44",
+            "scheduled_departure_time": "22:25"
+          },
+          "direction": "1"
+        },
+        {
+          "route_num": "46a",
+          "stops": [
+            {
+              "stop_id": "8250DB002084",
+              "stop_name": "Seafield Road",
+              "stop_number": "2084",
+              "stop_lat": 53.3055267568845,
+              "stop_lon": -6.2115990204445,
+              "stop_sequence": "29",
+              "arrival_time": "22:20:37",
+              "departure_time": "22:20:37",
+              "shape_dist_traveled": 9037.24
+            },
+            {
+              "stop_id": "8250DB000768",
+              "stop_name": "UCD Belfield",
+              "stop_number": "768",
+              "stop_lat": 53.3094181940068,
+              "stop_lon": -6.21877482979347,
+              "stop_sequence": "30",
+              "arrival_time": "22:21:42",
+              "departure_time": "22:21:42",
+              "shape_dist_traveled": 9686
+            },
+            {
+              "stop_id": "8220DB000769",
+              "stop_name": "Belfield Court",
+              "stop_number": "769",
+              "stop_lat": 53.3119010923178,
+              "stop_lon": -6.22132785711797,
+              "stop_sequence": "31",
+              "arrival_time": "22:22:07",
+              "departure_time": "22:22:07",
+              "shape_dist_traveled": 10013.56
+            },
+            {
+              "stop_id": "8220DB000770",
+              "stop_name": "RTE",
+              "stop_number": "770",
+              "stop_lat": 53.3146361875625,
+              "stop_lon": -6.22573181130967,
+              "stop_sequence": "32",
+              "arrival_time": "22:22:55",
+              "departure_time": "22:22:55",
+              "shape_dist_traveled": 10456.58
+            },
+            {
+              "stop_id": "8220DB000771",
+              "stop_name": "Teresian School",
+              "stop_number": "771",
+              "stop_lat": 53.315880069244,
+              "stop_lon": -6.22778152242798,
+              "stop_sequence": "33",
+              "arrival_time": "22:23:14",
+              "departure_time": "22:23:14",
+              "shape_dist_traveled": 10647.38
+            },
+            {
+              "stop_id": "8220DB000772",
+              "stop_name": "Donnybrook Garage",
+              "stop_number": "772",
+              "stop_lat": 53.3184852574564,
+              "stop_lon": -6.23132106360088,
+              "stop_sequence": "34",
+              "arrival_time": "22:23:54",
+              "departure_time": "22:23:54",
+              "shape_dist_traveled": 11020.94
+            },
+            {
+              "stop_id": "8220DB000773",
+              "stop_name": "Donnybrook Road",
+              "stop_number": "773",
+              "stop_lat": 53.3199163484799,
+              "stop_lon": -6.23327331931076,
+              "stop_sequence": "35",
+              "arrival_time": "22:24:25",
+              "departure_time": "22:24:25",
+              "shape_dist_traveled": 11224.26
+            },
+            {
+              "stop_id": "8220DB000774",
+              "stop_name": "Donnybrook Garda Stn",
+              "stop_number": "774",
+              "stop_lat": 53.3216121235643,
+              "stop_lon": -6.23549999641969,
+              "stop_sequence": "36",
+              "arrival_time": "22:25:02",
+              "departure_time": "22:25:02",
+              "shape_dist_traveled": 11466.14
+            },
+            {
+              "stop_id": "8220DB000775",
+              "stop_name": "Donnybrook Village",
+              "stop_number": "775",
+              "stop_lat": 53.3234897098062,
+              "stop_lon": -6.23908544721608,
+              "stop_sequence": "37",
+              "arrival_time": "22:25:53",
+              "departure_time": "22:25:53",
+              "shape_dist_traveled": 11789.99
+            },
+            {
+              "stop_id": "8220DB000776",
+              "stop_name": "Morehampton Terrace",
+              "stop_number": "776",
+              "stop_lat": 53.3254792402838,
+              "stop_lon": -6.2417358210607,
+              "stop_sequence": "38",
+              "arrival_time": "22:26:38",
+              "departure_time": "22:26:38",
+              "shape_dist_traveled": 12072.87
+            },
+            {
+              "stop_id": "8220DB000777",
+              "stop_name": "Royal Hospital",
+              "stop_number": "777",
+              "stop_lat": 53.3269721601116,
+              "stop_lon": -6.24362614364866,
+              "stop_sequence": "39",
+              "arrival_time": "22:27:06",
+              "departure_time": "22:27:06",
+              "shape_dist_traveled": 12281.2
+            },
+            {
+              "stop_id": "8220DB000906",
+              "stop_name": "Leeson St Upper",
+              "stop_number": "906",
+              "stop_lat": 53.3288107659747,
+              "stop_lon": -6.24763437727536,
+              "stop_sequence": "40",
+              "arrival_time": "22:27:53",
+              "departure_time": "22:27:53",
+              "shape_dist_traveled": 12621.92
+            },
+            {
+              "stop_id": "8220DB000907",
+              "stop_name": "Dartmouth Road",
+              "stop_number": "907",
+              "stop_lat": 53.3297193588591,
+              "stop_lon": -6.25075010860462,
+              "stop_sequence": "41",
+              "arrival_time": "22:28:28",
+              "departure_time": "22:28:28",
+              "shape_dist_traveled": 12855.21
+            },
+            {
+              "stop_id": "8220DB000908",
+              "stop_name": "Grand Parade",
+              "stop_number": "908",
+              "stop_lat": 53.3311542855373,
+              "stop_lon": -6.25237303421837,
+              "stop_sequence": "42",
+              "arrival_time": "22:28:57",
+              "departure_time": "22:28:57",
+              "shape_dist_traveled": 13049.09
+            },
+            {
+              "stop_id": "8220DB000909",
+              "stop_name": "Fitzwilliam Place",
+              "stop_number": "909",
+              "stop_lat": 53.3331476599204,
+              "stop_lon": -6.25407836385524,
+              "stop_sequence": "43",
+              "arrival_time": "22:29:35",
+              "departure_time": "22:29:35",
+              "shape_dist_traveled": 13302.52
+            },
+            {
+              "stop_id": "8220DB000786",
+              "stop_name": "Embassy of Malta",
+              "stop_number": "786",
+              "stop_lat": 53.3351644610142,
+              "stop_lon": -6.25615829567478,
+              "stop_sequence": "44",
+              "arrival_time": "22:30:16",
+              "departure_time": "22:30:16",
+              "shape_dist_traveled": 13565.08
+            },
+            {
+              "stop_id": "8220DB000792",
+              "stop_name": "Dawson Street",
+              "stop_number": "792",
+              "stop_lat": 53.3404489881529,
+              "stop_lon": -6.25858580845115,
+              "stop_sequence": "45",
+              "arrival_time": "22:32:47",
+              "departure_time": "22:32:47",
+              "shape_dist_traveled": 14171.46
+            },
+            {
+              "stop_id": "8220DB000320",
+              "stop_name": "Westmoreland Street",
+              "stop_number": "320",
+              "stop_lat": 53.3456456323913,
+              "stop_lon": -6.25930523253443,
+              "stop_sequence": "47",
+              "arrival_time": "22:35:46",
+              "departure_time": "22:35:46",
+              "shape_dist_traveled": 14831.66
+            },
+            {
+              "stop_id": "8220DB000278",
+              "stop_name": "O'Connell St Upper",
+              "stop_number": "278",
+              "stop_lat": 53.3515608719055,
+              "stop_lon": -6.26122733564312,
+              "stop_sequence": "49",
+              "arrival_time": "22:37:45",
+              "departure_time": "22:37:45",
+              "shape_dist_traveled": 15508.69
+            }
+          ],
+          "shapes": [
+            {
+              "shape_pt_lat": 53.305579078247,
+              "shape_pt_lon": -6.21149179307464,
+              "shape_pt_sequence": "105",
+              "shape_dist_travel": "9037.24"
+            },
+            {
+              "shape_pt_lat": 53.3066540979111,
+              "shape_pt_lon": -6.2130525142404,
+              "shape_pt_sequence": "106",
+              "shape_dist_travel": "9195.49"
+            },
+            {
+              "shape_pt_lat": 53.3072343803748,
+              "shape_pt_lon": -6.21398868492484,
+              "shape_pt_sequence": "107",
+              "shape_dist_travel": "9285.11"
+            },
+            {
+              "shape_pt_lat": 53.308157776995,
+              "shape_pt_lon": -6.21623115211525,
+              "shape_pt_sequence": "108",
+              "shape_dist_travel": "9466.05"
+            },
+            {
+              "shape_pt_lat": 53.3090773232299,
+              "shape_pt_lon": -6.2182187563777,
+              "shape_pt_sequence": "109",
+              "shape_dist_travel": "9633.07"
+            },
+            {
+              "shape_pt_lat": 53.3094181940068,
+              "shape_pt_lon": -6.21877482979347,
+              "shape_pt_sequence": "110",
+              "shape_dist_travel": "9686.00"
+            },
+            {
+              "shape_pt_lat": 53.3100341391124,
+              "shape_pt_lon": -6.219694645506,
+              "shape_pt_sequence": "111",
+              "shape_dist_travel": "9777.79"
+            },
+            {
+              "shape_pt_lat": 53.310354128102,
+              "shape_pt_lon": -6.22005651489896,
+              "shape_pt_sequence": "112",
+              "shape_dist_travel": "9820.73"
+            },
+            {
+              "shape_pt_lat": 53.3105357954231,
+              "shape_pt_lon": -6.22018402369274,
+              "shape_pt_sequence": "113",
+              "shape_dist_travel": "9842.63"
+            },
+            {
+              "shape_pt_lat": 53.3108066175887,
+              "shape_pt_lon": -6.22026280176225,
+              "shape_pt_sequence": "114",
+              "shape_dist_travel": "9873.20"
+            },
+            {
+              "shape_pt_lat": 53.3111072969566,
+              "shape_pt_lon": -6.22053543876797,
+              "shape_pt_sequence": "115",
+              "shape_dist_travel": "9911.23"
+            },
+            {
+              "shape_pt_lat": 53.3119523038221,
+              "shape_pt_lon": -6.22114563182826,
+              "shape_pt_sequence": "116",
+              "shape_dist_travel": "10013.56"
+            },
+            {
+              "shape_pt_lat": 53.3128979057707,
+              "shape_pt_lon": -6.22187173328964,
+              "shape_pt_sequence": "117",
+              "shape_dist_travel": "10129.24"
+            },
+            {
+              "shape_pt_lat": 53.3131626509758,
+              "shape_pt_lon": -6.22214588804747,
+              "shape_pt_sequence": "118",
+              "shape_dist_travel": "10163.86"
+            },
+            {
+              "shape_pt_lat": 53.3135019392504,
+              "shape_pt_lon": -6.22259705080856,
+              "shape_pt_sequence": "119",
+              "shape_dist_travel": "10212.04"
+            },
+            {
+              "shape_pt_lat": 53.3139081266578,
+              "shape_pt_lon": -6.22331559763751,
+              "shape_pt_sequence": "120",
+              "shape_dist_travel": "10277.76"
+            },
+            {
+              "shape_pt_lat": 53.3140385756485,
+              "shape_pt_lon": -6.22362536238441,
+              "shape_pt_sequence": "121",
+              "shape_dist_travel": "10302.93"
+            },
+            {
+              "shape_pt_lat": 53.314751176986,
+              "shape_pt_lon": -6.22560696970373,
+              "shape_pt_sequence": "122",
+              "shape_dist_travel": "10456.58"
+            },
+            {
+              "shape_pt_lat": 53.3151966230315,
+              "shape_pt_lon": -6.22654907434469,
+              "shape_pt_sequence": "123",
+              "shape_dist_travel": "10536.39"
+            },
+            {
+              "shape_pt_lat": 53.3159586843215,
+              "shape_pt_lon": -6.2276281711691,
+              "shape_pt_sequence": "124",
+              "shape_dist_travel": "10647.38"
+            },
+            {
+              "shape_pt_lat": 53.3174630317652,
+              "shape_pt_lon": -6.22966721796631,
+              "shape_pt_sequence": "125",
+              "shape_dist_travel": "10862.62"
+            },
+            {
+              "shape_pt_lat": 53.3185465790563,
+              "shape_pt_lon": -6.2312134555864,
+              "shape_pt_sequence": "126",
+              "shape_dist_travel": "11020.94"
+            },
+            {
+              "shape_pt_lat": 53.3190699352492,
+              "shape_pt_lon": -6.23195734387719,
+              "shape_pt_sequence": "127",
+              "shape_dist_travel": "11097.28"
+            },
+            {
+              "shape_pt_lat": 53.3191790616643,
+              "shape_pt_lon": -6.23204289539884,
+              "shape_pt_sequence": "128",
+              "shape_dist_travel": "11110.68"
+            },
+            {
+              "shape_pt_lat": 53.3196195681324,
+              "shape_pt_lon": -6.23265513227745,
+              "shape_pt_sequence": "129",
+              "shape_dist_travel": "11174.35"
+            },
+            {
+              "shape_pt_lat": 53.3199855433861,
+              "shape_pt_lon": -6.23309033126172,
+              "shape_pt_sequence": "130",
+              "shape_dist_travel": "11224.26"
+            },
+            {
+              "shape_pt_lat": 53.3216559273773,
+              "shape_pt_lon": -6.23542313210856,
+              "shape_pt_sequence": "131",
+              "shape_dist_travel": "11466.14"
+            },
+            {
+              "shape_pt_lat": 53.3219967197128,
+              "shape_pt_lon": -6.23597950574442,
+              "shape_pt_sequence": "132",
+              "shape_dist_travel": "11519.07"
+            },
+            {
+              "shape_pt_lat": 53.3220719091955,
+              "shape_pt_lon": -6.23620157668348,
+              "shape_pt_sequence": "133",
+              "shape_dist_travel": "11536.03"
+            },
+            {
+              "shape_pt_lat": 53.3221331252564,
+              "shape_pt_lon": -6.23669443227024,
+              "shape_pt_sequence": "134",
+              "shape_dist_travel": "11569.46"
+            },
+            {
+              "shape_pt_lat": 53.3222195135823,
+              "shape_pt_lon": -6.23706615902805,
+              "shape_pt_sequence": "135",
+              "shape_dist_travel": "11595.96"
+            },
+            {
+              "shape_pt_lat": 53.3223863017417,
+              "shape_pt_lon": -6.23740455004916,
+              "shape_pt_sequence": "136",
+              "shape_dist_travel": "11625.10"
+            },
+            {
+              "shape_pt_lat": 53.3228276677481,
+              "shape_pt_lon": -6.23807689851894,
+              "shape_pt_sequence": "137",
+              "shape_dist_travel": "11691.45"
+            },
+            {
+              "shape_pt_lat": 53.3235243117095,
+              "shape_pt_lon": -6.23899395015363,
+              "shape_pt_sequence": "138",
+              "shape_dist_travel": "11789.99"
+            },
+            {
+              "shape_pt_lat": 53.3240736829563,
+              "shape_pt_lon": -6.23967689823169,
+              "shape_pt_sequence": "139",
+              "shape_dist_travel": "11866.08"
+            },
+            {
+              "shape_pt_lat": 53.3255226057438,
+              "shape_pt_lon": -6.24162894877252,
+              "shape_pt_sequence": "140",
+              "shape_dist_travel": "12072.87"
+            },
+            {
+              "shape_pt_lat": 53.3269894627887,
+              "shape_pt_lon": -6.24358039317502,
+              "shape_pt_sequence": "141",
+              "shape_dist_travel": "12281.20"
+            },
+            {
+              "shape_pt_lat": 53.3274292487914,
+              "shape_pt_lon": -6.24414784736028,
+              "shape_pt_sequence": "142",
+              "shape_dist_travel": "12342.94"
+            },
+            {
+              "shape_pt_lat": 53.327457742965,
+              "shape_pt_lon": -6.24425177082019,
+              "shape_pt_sequence": "143",
+              "shape_dist_travel": "12350.53"
+            },
+            {
+              "shape_pt_lat": 53.3276413725821,
+              "shape_pt_lon": -6.24451447177047,
+              "shape_pt_sequence": "144",
+              "shape_dist_travel": "12377.39"
+            },
+            {
+              "shape_pt_lat": 53.3279679103431,
+              "shape_pt_lon": -6.24532680961925,
+              "shape_pt_sequence": "145",
+              "shape_dist_travel": "12442.42"
+            },
+            {
+              "shape_pt_lat": 53.3280875550497,
+              "shape_pt_lon": -6.24551707593283,
+              "shape_pt_sequence": "146",
+              "shape_dist_travel": "12460.76"
+            },
+            {
+              "shape_pt_lat": 53.3285186309328,
+              "shape_pt_lon": -6.24671549914969,
+              "shape_pt_sequence": "147",
+              "shape_dist_travel": "12553.67"
+            },
+            {
+              "shape_pt_lat": 53.328907812712,
+              "shape_pt_lon": -6.24751028825088,
+              "shape_pt_sequence": "148",
+              "shape_dist_travel": "12621.92"
+            },
+            {
+              "shape_pt_lat": 53.3293164971423,
+              "shape_pt_lon": -6.24840939073252,
+              "shape_pt_sequence": "149",
+              "shape_dist_travel": "12696.96"
+            },
+            {
+              "shape_pt_lat": 53.3294971281334,
+              "shape_pt_lon": -6.24969320159057,
+              "shape_pt_sequence": "150",
+              "shape_dist_travel": "12784.55"
+            },
+            {
+              "shape_pt_lat": 53.3296685033911,
+              "shape_pt_lon": -6.25034680754047,
+              "shape_pt_sequence": "151",
+              "shape_dist_travel": "12831.95"
+            },
+            {
+              "shape_pt_lat": 53.3297806978732,
+              "shape_pt_lon": -6.25064249941691,
+              "shape_pt_sequence": "152",
+              "shape_dist_travel": "12855.21"
+            },
+            {
+              "shape_pt_lat": 53.3301141976439,
+              "shape_pt_lon": -6.25131951014087,
+              "shape_pt_sequence": "153",
+              "shape_dist_travel": "12913.49"
+            },
+            {
+              "shape_pt_lat": 53.330206444787,
+              "shape_pt_lon": -6.25148089439852,
+              "shape_pt_sequence": "154",
+              "shape_dist_travel": "12928.32"
+            },
+            {
+              "shape_pt_lat": 53.330371213595,
+              "shape_pt_lon": -6.2516843565111,
+              "shape_pt_sequence": "155",
+              "shape_dist_travel": "12951.09"
+            },
+            {
+              "shape_pt_lat": 53.3306172667318,
+              "shape_pt_lon": -6.25191452517882,
+              "shape_pt_sequence": "156",
+              "shape_dist_travel": "12982.43"
+            },
+            {
+              "shape_pt_lat": 53.3311880181367,
+              "shape_pt_lon": -6.25222150837994,
+              "shape_pt_sequence": "157",
+              "shape_dist_travel": "13049.09"
+            },
+            {
+              "shape_pt_lat": 53.3314231089767,
+              "shape_pt_lon": -6.25231699972668,
+              "shape_pt_sequence": "158",
+              "shape_dist_travel": "13075.99"
+            },
+            {
+              "shape_pt_lat": 53.3321684881593,
+              "shape_pt_lon": -6.25288712577716,
+              "shape_pt_sequence": "159",
+              "shape_dist_travel": "13167.11"
+            },
+            {
+              "shape_pt_lat": 53.3332000191016,
+              "shape_pt_lon": -6.25397111756115,
+              "shape_pt_sequence": "160",
+              "shape_dist_travel": "13302.52"
+            },
+            {
+              "shape_pt_lat": 53.335173224419,
+              "shape_pt_lon": -6.25614292206184,
+              "shape_pt_sequence": "161",
+              "shape_dist_travel": "13565.08"
+            },
+            {
+              "shape_pt_lat": 53.3404472354409,
+              "shape_pt_lon": -6.25846573653914,
+              "shape_pt_sequence": "162",
+              "shape_dist_travel": "14171.46"
+            },
+            {
+              "shape_pt_lat": 53.3429266989585,
+              "shape_pt_lon": -6.25776393051747,
+              "shape_pt_sequence": "163",
+              "shape_dist_travel": "14451.07"
+            },
+            {
+              "shape_pt_lat": 53.3430713023286,
+              "shape_pt_lon": -6.25843388230912,
+              "shape_pt_sequence": "164",
+              "shape_dist_travel": "14498.37"
+            },
+            {
+              "shape_pt_lat": 53.3432060430792,
+              "shape_pt_lon": -6.25904416484425,
+              "shape_pt_sequence": "165",
+              "shape_dist_travel": "14541.56"
+            },
+            {
+              "shape_pt_lat": 53.3432616919503,
+              "shape_pt_lon": -6.25916204871902,
+              "shape_pt_sequence": "166",
+              "shape_dist_travel": "14551.54"
+            },
+            {
+              "shape_pt_lat": 53.3433981857288,
+              "shape_pt_lon": -6.25927663936881,
+              "shape_pt_sequence": "167",
+              "shape_dist_travel": "14568.52"
+            },
+            {
+              "shape_pt_lat": 53.3435239446494,
+              "shape_pt_lon": -6.25927151606355,
+              "shape_pt_sequence": "168",
+              "shape_dist_travel": "14582.50"
+            },
+            {
+              "shape_pt_lat": 53.3437206897675,
+              "shape_pt_lon": -6.2592034245016,
+              "shape_pt_sequence": "169",
+              "shape_dist_travel": "14604.84"
+            },
+            {
+              "shape_pt_lat": 53.3439903921541,
+              "shape_pt_lon": -6.25920745559093,
+              "shape_pt_sequence": "170",
+              "shape_dist_travel": "14634.83"
+            },
+            {
+              "shape_pt_lat": 53.3440806579666,
+              "shape_pt_lon": -6.25923381640691,
+              "shape_pt_sequence": "171",
+              "shape_dist_travel": "14645.02"
+            },
+            {
+              "shape_pt_lat": 53.3444625335271,
+              "shape_pt_lon": -6.25953366411395,
+              "shape_pt_sequence": "172",
+              "shape_dist_travel": "14691.92"
+            },
+            {
+              "shape_pt_lat": 53.3449504542832,
+              "shape_pt_lon": -6.25909324264792,
+              "shape_pt_sequence": "173",
+              "shape_dist_travel": "14753.55"
+            },
+            {
+              "shape_pt_lat": 53.3452107357743,
+              "shape_pt_lon": -6.25906761766114,
+              "shape_pt_sequence": "174",
+              "shape_dist_travel": "14782.54"
+            },
+            {
+              "shape_pt_lat": 53.3456517679356,
+              "shape_pt_lon": -6.25910972587142,
+              "shape_pt_sequence": "175",
+              "shape_dist_travel": "14831.66"
+            },
+            {
+              "shape_pt_lat": 53.3467303580456,
+              "shape_pt_lon": -6.25911083636405,
+              "shape_pt_sequence": "176",
+              "shape_dist_travel": "14951.60"
+            },
+            {
+              "shape_pt_lat": 53.3468824080954,
+              "shape_pt_lon": -6.25905958009636,
+              "shape_pt_sequence": "177",
+              "shape_dist_travel": "14968.84"
+            },
+            {
+              "shape_pt_lat": 53.3472077592496,
+              "shape_pt_lon": -6.25918150479747,
+              "shape_pt_sequence": "178",
+              "shape_dist_travel": "15005.91"
+            },
+            {
+              "shape_pt_lat": 53.3475160207578,
+              "shape_pt_lon": -6.25936420920886,
+              "shape_pt_sequence": "179",
+              "shape_dist_travel": "15042.27"
+            },
+            {
+              "shape_pt_lat": 53.3485560471086,
+              "shape_pt_lon": -6.25980249857863,
+              "shape_pt_sequence": "180",
+              "shape_dist_travel": "15161.52"
+            },
+            {
+              "shape_pt_lat": 53.3515773059497,
+              "shape_pt_lon": -6.26112151391227,
+              "shape_pt_sequence": "181",
+              "shape_dist_travel": "15508.69"
+            }
+          ],
+          "fares": {
+            "adult_leap": 2,
+            "adult_cash": 2.6,
+            "student_leap": 1,
+            "child_leap": 0.65,
+            "child_cash": 0.9
+          },
+          "travel_time": {
+            "source": "prediction",
+            "transit_time": 17,
+            "transit_time_plus_mae": 18,
+            "transit_time_minus_mae": 17,
+            "estimated_arrival_time": "22:37",
+            "estimated_arrival_high_time": "22:38",
+            "estimated_arrival_low_time": "22:36",
+            "scheduled_departure_time": "22:20"
+          },
+          "direction": "1"
+        }
+      ]
+    },
+    "id": "43103d87-f92e-4a6c-85c7-99e71057423d",
+    "priority": 0,
+    "timeToLive": {
+      "unlimited": true
+    },
+    "times": {
+      "unlimited": true
+    }
+  }
+]
